@@ -11,7 +11,9 @@ inoremap <Leader>d <C-R>=strftime("%Y%m%d")<CR>
 
 nnoremap <c-t> :tabnew<cr>
 nnoremap <F2> :tabprev<cr>
+inoremap <F2> <Esc>:tabprev<cr>
 nnoremap <F3> :tabnext<cr>
+inoremap <F3> <Esc>:tabnext<cr>
 nnoremap <F6> :bn<cr>
 set confirm
 
