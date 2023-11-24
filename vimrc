@@ -7,6 +7,7 @@ let g:mapleader = ","
 " bla
 nnoremap <Leader>w :w<cr>
 nnoremap <Leader>q :q<cr>
+inoremap <Leader>d <C-R>=strftime("%Y%m%d")<CR>
 
 nnoremap <c-t> :tabnew<cr>
 nnoremap <F2> :tabprev<cr>
