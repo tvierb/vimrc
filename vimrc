@@ -16,5 +16,7 @@ nnoremap <F6> :bn<cr>
 set confirm
 
 set background=dark
+set number
+set relativenumber
 "let g:pencil_higher_contrast_ui = 1
 colorscheme elflord
